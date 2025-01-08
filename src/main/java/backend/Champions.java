@@ -16,8 +16,6 @@ import inf.Dao;
 @Entity
 @Table(name = "campeões")
 public class Champions {
-	
-	public String teste;
 
 	@Id
 	@Column(unique = true)
